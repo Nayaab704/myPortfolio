@@ -266,8 +266,8 @@ const projects = [
     ],
     image: myportfolio,
     source_code_link:
-      "https://github.com/Programming-School-Pro-Coding/Amazing-Portfolio",
-    demo_link: "http://amazing-portfolio-react-sanity.vercel.app/",
+      "https://github.com/Nayaab704/myPortfolio.git",
+    demo_link: "https://nayaab-portfolio.vercel.app/",
   },
 ];
 

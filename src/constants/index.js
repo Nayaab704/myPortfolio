@@ -229,11 +229,11 @@ const projects = [
       "Designed and developed a website that allows user to view, add, and navigate through different products.",
     tags: [
       {
-        name: "Python",
+        name: "Java Script",
         color: "blue-text-gradient",
       },
       {
-        name: "Machine Learning",
+        name: "React",
         color: "green-text-gradient",
       },
       {

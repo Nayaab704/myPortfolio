@@ -17,8 +17,15 @@ import {
   peerme,
   CTSH_BIG,
   tatasteel,
+  meta,
   dbms,
+  tesla,
+  starbucks,
+  carrent,
 } from "../assets";
+
+
+
 
 export const navLinks = [
   {
@@ -45,7 +52,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "IIB ACE Developer",
+    title: "Unreal Engine Developer",
     icon: creator,
   },
 ];
@@ -99,53 +106,72 @@ const technologies = [
 
 const experiences = [
   {
-    title: "IIB ACE Developer",
-    company_name: "Cognizant",
-    icon: CTSH_BIG,
-    iconBg: "#383E56",
-    date: "Aril 2021 - Dec 2022",
+    title: "Software Engineer",
+    company_name: "Virginia Tech Transport Institute",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Aug 2024 - Present",
     points: [
-      "Integration development and support using the IBM ACE tool.",
-      "Implementing adaptor's code for different data types.",
-      "Transforming the data received from the Producer and sending it to respective consumers through pub-sub model",
-      "Maintaining Database for different Airines data which include aircraft/fleet/pax/bag/resource info.",
+      "The project focuses on developing an AI-integrated Autonomous Driving Truck to advance autonomous vehicle technology, I am creating simulations for a Remote Driver and Remote Assistant, enabling seamless testing and operational control. ",
+      "Designed and rigged a high-fidelity truck model in Blender and integrated it into Unreal Engine 5.4.4.",
+      "Configured the vehicle physics in Unreal Engine using C++ & Blueprint to make the truck drivable for participant testing.",
+      "Imported driving environments using Roadrunner plugins and imported them into Unreal Engine.",
+      "Integrated Vive Focus 3 headset to enable remote truck operation and would utilize MATLAB for data analysis."
+    ],
+  },
+  {
+    title: "Research Assistant",
+    company_name: "Virginia Tech",
+    icon: starbucks,
+    iconBg: "#E6DEDD",
+    date: "May 2024 - Present",
+    points: [
+      "This research focuses on developing a mobile app (Android/iOS) to address social isolation among older adults.",
+      "Co-developing a cross-platform mobile app using React Native Expo.",
+      "Built a backend with Typescript, Express, Prisma & MongoDB, using Redis for caching and GraphQL for data queries. ",
+      "Integrated Socket.IO for real-time messaging, AWS S3 to store any files & CloudFront to access the files in S3. ",
+      "Utilizing FlatList for lazy loading, pagination to split the message data for efficiency, and JWT for login. ",
+      "As part of next steps, incorporating NLP with TensorFlow and Hugging Face for advanced search and recommendation.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Etihad",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Aug 2021 - Dec 2022",
+    points: [
+      "The project involved developing applications to integrate systems by transferring and transforming various message types.",
+      "I developed a new adapter for cabin baggage for the Etihad Airline & Abu Dhabi Airport , using IIB ACE and ESQL to transform incoming XML data into JSON format.",
+      "Additionally, I implemented logic to store the JSON data in MySQL databases using inline queries, configured Jenkins pipelines to automate the test, build, and deployment processes, ensuring a seamless CI/CD workflow",
+      "Published the transformed producer sent messages to its respective consumers through a pub-sub messaging model.",
+      "I worked within an Agile methodology, utilizing JIRA for ticket tracking and efficiently resolving issues during sprint cycles. ",
       
     ],
   },
+  
   {
-    title: "React Developer",
+    title: "Full Stack Java Intern",
     company_name: "Cognizant",
     icon: CTSH_BIG,
     iconBg: "#E6DEDD",
-    date: "April 2021 - Dec 2022",
+    date: "Apr 2021 - Aug 2021",
     points: [
-      "Leveraged React, JavaScript, HTML5, CSS3, and Bootstrap to craft dynamic web applications.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and optimising the code based on the constructive feedback from senior developers.",
+      "Trained in Java, Spring Boot, and Spring Hibernate to gain expertise in full-stack web development.",
+      "Developed a book-selling e-commerce website during the internship, implementing functionality using Java and Spring Boot and managing data storage with JDBC. Learned to structure Maven projects and implemented logic using JSP, Servlets, multithreading, RESTful APIs, JDBC, and Spring Hibernate.",
+      "Trained in Docker to understand containerization for deploying web applications as part of a microservices architecture.",
     ],
   },
   {
-    title: "Java Web Developer",
-    company_name: "Cognizant",
-    icon: CTSH_BIG,
-    iconBg: "#383E56",
-    date: "April 2021 - Dec 2022",
-    points: [
-      "Led a team of 5 developers in building a scalable e-commerce platform using Java 11, Spring Boot, and Hibernate ORM.",
-      "Utilized Java's Concurrency API to implement multithreading for batch processing jobs, reducing processing times by over 60%.",
-      "Engaged in bi-weekly code reviews, championing best practices and mentored 300+ GENC's.",
-      "Optimized SQL queries and redesigned database schema, resulting in a 40% improvement in query execution times.",
-    ],
-  },
-  {
-    title: "SAP Intern",
+    title: "Machine Learning Intern",
     company_name: "Tata Steel",
     icon: tatasteel,
     iconBg: "#E6DEDD",
     date: "May 2018 - July 2018",
     points: [
-      "Designed a project that seamlessly connected various departments, eliminating the need for manual intervention, while also maintaining a comprehensive record of the quantity of steel rods in transit and prepared for the melting process.",
+      "Developed a machine learning based solution for quality inspection of steel sheets in the coating department.",
+      "Used TensorFlow, OpenCV, and Keras for implementing image processing techniques to detect surface defects.",
+      "Automated defect detection, categorizing steel sheets as Defects or No Defects, reducing manual inspection efforts. ",
      
     ],
   },
@@ -179,6 +205,33 @@ const testimonials = [
 ];
 
 const projects = [
+
+  {
+    name: "Video Sharing Chat App",
+    description:
+      " An asynchronous mobile app (Android/iOS) to address social isolation among older adults.",
+    tags: [
+      {
+        name: "React Native Expo",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongo DB",
+        color: "pink-text-gradient",
+      },
+    
+
+    ],
+    image: carrent,
+    source_code_link:
+      "https://github.com/Nayaab704/IceBreak.git",
+    demo_link: "https://github.com/Nayaab704/IceBreak.git",
+  },
+
   {
     name: "Match-Making platform",
     description:
@@ -199,7 +252,7 @@ const projects = [
     ],
     image: peerme,
     source_code_link:
-      "https://github.com/Nayaab704/Nexas.git",
+      "https://github.com/Nayaab704/PeerMe",
     demo_link: "https://match-platform.vercel.app/",
   },
   // {

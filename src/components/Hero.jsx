@@ -8,7 +8,7 @@ import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   useEffect(() => {
     const options = {
-      strings: ["Unity Games","3D Visuals", "User Interfaces", "Web Applications"],
+      strings: ["React Webapps","Unreal Engine Games", "User Interfaces", "Mobile Applications"],
       typeSpeed: 50,
       backSpeed: 50,
       startDelay: 1000,
